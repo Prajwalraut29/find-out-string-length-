@@ -1,0 +1,1 @@
+{"name":"Local: lu","url":"c:\\Users\\hp\\Desktop\\c c++ compier\\lu.cpp","tests":[{"id":1642853009066,"input":"2 4","output":"8"},{"id":1642853137786,"input":"5 8","output":"40"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\hp\\Desktop\\c c++ compier\\lu.cpp","group":"local","local":true}

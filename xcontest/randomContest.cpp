@@ -1,46 +1,31 @@
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
- 
-void solve()
-{
-    int n;
-    cin >> n;
-    int a[n];
-    for(int i = 0; i < n; i++)
-    {
-        cin >> a[i];
-    }
-    for(int i = 0; i < n; i++)
-    {
-        int b;
-        cin >> b;
-        if(b == 0)
-        {
-            continue;
-        }
-        string now;
-        cin >> now;
-        for(int j = 0; j < b; j++)
-        {
-            if(now[j] == 'U'){a[i]--;}
-            else if(now[j] == 'D'){a[i]++;}
-            if(a[i] < 0){a[i]+=10;}
-            if(a[i] > 9){a[i]-=10;}
-        }
-    }
-    for(int i = 0; i < n; i++)
-    {
-        cout << a[i] << " ";
-    }
-    cout << endl;
-}
- 
 int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     int t;
-    cin>> t;
-    while(t--)
-    {
-        solve();
-    }
-    return 0;
+    cin>>t;
+      while(t--){
+        int n;
+        cin>>n;
+       string s1,s2;
+       cin>>s1>>s2;
+       int a = 0;
+       for(int i = 0; i<n; i++){
+        if(s1[i]=='R' &&(s2[i]=='G'|| s2[i]=='B')){
+            a++;
+        }
+        else if(s2[i]=='R' &&(s1[i]=='G'|| s1[i]=='B')){
+            a++;
+        }
+       }
+       if(a>0){
+        cout<<"NO"<<endl;
+       }
+       else {
+        cout<<"YES"<<endl;
+       }
+{
+
+}      }
 }

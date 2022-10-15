@@ -1,0 +1,1 @@
+{"name":"Local: prefix","url":"c:\\Users\\hp\\Desktop\\cp love\\Data Structure and algorithm\\prefix.cpp","tests":[{"id":1658772197492,"input":"4\n4 1 2 10","output":"12 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\hp\\Desktop\\cp love\\Data Structure and algorithm\\prefix.cpp","group":"local","local":true}

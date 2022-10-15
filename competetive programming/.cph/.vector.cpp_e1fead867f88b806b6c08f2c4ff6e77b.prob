@@ -1,0 +1,1 @@
+{"name":"Local: vector","url":"c:\\Users\\hp\\Desktop\\cp love\\competetive programming\\vector.cpp","tests":[{"id":1664515297520,"input":"3\n1 7\n8 8\n3 3","output":"1 7\n7 2\n2 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\hp\\Desktop\\cp love\\competetive programming\\vector.cpp","group":"local","local":true}
